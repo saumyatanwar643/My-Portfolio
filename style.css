@@ -41,15 +41,19 @@ img {
 
 .links {
     float: left;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #00ff2f;
+    list-style: none;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 23px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+
 }
 
 .links:hover {
     background-color: #fcba03;
+    text-decoration: underline;
+    font-size: 25px;
 }
 
 .line {
@@ -71,4 +75,17 @@ img {
 
 img:hover {
     transform: scale(0.9)
+}
+
+#contact {
+    background: firebrick;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
 }
